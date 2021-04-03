@@ -1,0 +1,50 @@
+*{
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold !important;
+	margin-bottom: 1rem !important;
+}
+.section-gap{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: #ededed;
+}
+.primary{
+	padding:0.7rem 1.5rem 0.7rem 1.5rem;
+	border-radius: 6px;
+	color: white;
+	background-color: black; 
+	border:1px solid black;
+}
+.text-section{
+	max-width: 768px;
+	margin: 0 auto 20px;
+}
+@media (max-width: 768px){
+	.text-section{
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto 20px;
+	}
+}
+@media (max-width: 768px)
+{
+	.section-gap{
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}	
+}
+.hero-image{
+	min-height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:4rem;
+}
+.hero-box{
+	background-color:rgb(255 255 255 / 80%);
+	border-radius: 6px;
+	padding:25px 50px;
+	max-width: 450px;
+}
